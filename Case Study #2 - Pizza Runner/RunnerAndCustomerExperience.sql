@@ -138,7 +138,7 @@ ORDER BY C.order_id;
 --Q7. What is the successful delivery percentage for each runner?
 SELECT runner_id, 
 	   ROUND( 100 * SUM( CASE WHEN distance = 0 THEN 0
-							  ELSE 1
-						 END)/count(*),0) AS successpercentage
+			          ELSE 1
+	        	     END)/count(*),0) AS successpercentage
 FROM #runner_orders_temp
 GROUP BY runner_id;
