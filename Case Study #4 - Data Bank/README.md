@@ -1,1 +1,4 @@
+Case Study details : https://8weeksqlchallenge.com/case-study-4/
+
+This is week 4 of the 8 week SQL Challenge by Danny Ma.
 
